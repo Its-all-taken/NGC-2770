@@ -2,6 +2,7 @@ body{
   background-color: #000;
 }
 .ship{
+  margin: 0 29.531vw;
   position: fixed;
   top: 0px;
 }
@@ -18,6 +19,13 @@ body{
   width: 44.766vw;
   height: 328.516vw;
   margin: 0 auto;
-  background: url('images/c-belt-2.jpg');
+  background: url('images/c-belt.svg');
   background-repeat: repeat-y;
+}
+.panel{
+  /* margin-left: 6.719vw; */
+  width: 186px;
+  height: 399px;
+  background: #484848;
+  border-radius: 12px;
 }
