@@ -1,0 +1,23 @@
+body{
+  background-color: #000;
+}
+.ship{
+  position: fixed;
+  top: 0px;
+}
+.ship img{
+  margin: 0 auto;
+  top: 0;
+  height: 57.734vw;
+  width: 40.938vw;
+}
+.belt{
+  display: block;
+  position: relative;
+  top: 0;
+  width: 44.766vw;
+  height: 328.516vw;
+  margin: 0 auto;
+  background: url('images/c-belt-2.jpg');
+  background-repeat: repeat-y;
+}
