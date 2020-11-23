@@ -1,5 +1,6 @@
 .wire-a,.wire-a::before,.wire-a::after{
-    animation: gradient-slide 5s ease infinite;
+  background-color: white;
+    /* animation: gradient-slide 5s ease infinite; */
 }
 @keyframes gradient-slide {
   50% {

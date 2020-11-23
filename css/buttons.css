@@ -14,13 +14,6 @@
   width: 2.109vw;
   background: #202020;
 }
-.panel-turns{
-  margin-left: 4.609vw;
-  margin-top: 7.031vw;
-  width: 8.672vw;
-  height: 11.016vw;
-  column-count: 4;
-}
 .turns{
   box-sizing: border-box;
   background-clip:content-box;
@@ -58,10 +51,64 @@
   height: 3.906vw;
   border-top: dashed 1.172vw;
   border-bottom: dashed 1.172vw;
-  stroke-dasharray: 2 1 3 4;
 }
 .micro-p p{
   margin: 1.328vw 0.313vw;
-  font-size: 0.547vw;
+  font-size: 0.5vw;
+  line-height: normal;
   color: #322716;
+}
+.electronics{
+  display: inline-block;
+  width: 8.594vw;
+  height: 8.594vw;
+  background: #474747;
+}
+.el-in{
+  margin-top: 5.625vw;
+  margin-left: 0.469vw;
+  color: #CFCFCF;
+}
+.el-in p{
+  font-size: 0.703vw;
+}
+/* .border{
+  width: 87px;
+  height: 6px;
+  color: #83653A;
+  align-self: center;
+} */
+.panel-lever{
+  width: 15.703vw;
+  height: 12.969vw;
+  background: #484848;
+  border-radius: 1.172vw;
+}
+.lever{
+  display: inline-block;
+  height: 4.817vw;
+  width: 5.902vw;
+}
+.black{
+  display: block;
+  width: 5.902vw;
+  height: 1.084vw;
+  background: #000000;
+}
+.hand{
+  margin-top: -0.859vw;
+  margin-left: 1.172vw;
+  display: block;
+  width: 2.497vw;
+  height: 0.605vw;
+  background: #C4C4C4;
+}
+.white{
+  margin-left: 1.172vw;
+  margin-top: -2.734vw;
+  display: block;
+  width: 0.908vw;
+  height: 4.817vw;
+  background: #FFFFFF;
+  border-radius: 10px;
 }

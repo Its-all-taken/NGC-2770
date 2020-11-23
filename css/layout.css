@@ -1,5 +1,6 @@
 body{
   background-color: #000;
+  font-family: Geometria;
 }
 .ship{
   margin: 0 29.531vw;
@@ -28,4 +29,22 @@ body{
   /* margin-left: 6.719vw; */
   background: #484848;
   border-radius: 0.938vw;
+}
+.panel-turns{
+  margin-left: 4.609vw;
+  margin-top: 7.031vw;
+  width: 8.672vw;
+  height: 11.016vw;
+  column-count: 4;
+}
+.text{
+  color: white;
+  width: 16.484vw;
+  height: 18.047vw;
+}
+h1{
+  font-size: 7.813vw;
+}
+h2{
+  font-size: 1.875vw;
 }
