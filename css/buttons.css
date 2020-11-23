@@ -1,0 +1,67 @@
+.panel-buttons{
+  padding: 1.875vw;
+  width: 8.891vw;
+  height: 11.016vw;
+  flex-wrap:wrap;
+  display: flex;
+  column-count: 3;
+}
+.button-simple{
+  display: block;
+  border-radius: 100px;
+  margin: 0.4vw;
+  height: 2.109vw;
+  width: 2.109vw;
+  background: #202020;
+}
+.panel-turns{
+  margin-left: 4.609vw;
+  margin-top: 7.031vw;
+  width: 8.672vw;
+  height: 11.016vw;
+  column-count: 4;
+}
+.turns{
+  box-sizing: border-box;
+  background-clip:content-box;
+  width: 1.467vw;
+  height: 1.467vw;
+  margin-top: 0.634vw;
+}
+.turns:nth-of-type(1){
+  margin-top: 0;
+}
+.rectangle{
+  display: block;
+  position: absolute;
+  width: 0.200vw;
+  height: 0.901vw;
+  background: #929292;
+  z-index: 1;
+  margin-left: 0.634vw;
+  margin-top: -0.1vw;
+}
+.circle{
+  display: block;
+  position: absolute;
+  width: 1.467vw;
+  height: 1.467vw;
+  background: #000;
+  border-radius: 100px;
+  z-index: 0;
+}
+.micro-p{
+  display: inline-block;
+  background: #1E1E1E;
+  color: gray;
+  width:7.578vw;
+  height: 3.906vw;
+  border-top: dashed 1.172vw;
+  border-bottom: dashed 1.172vw;
+  stroke-dasharray: 2 1 3 4;
+}
+.micro-p p{
+  margin: 1.328vw 0.313vw;
+  font-size: 0.547vw;
+  color: #322716;
+}

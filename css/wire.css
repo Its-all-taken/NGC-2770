@@ -1,0 +1,35 @@
+.wire-a,.wire-a::before,.wire-a::after{
+    animation: gradient-slide 5s ease infinite;
+}
+@keyframes gradient-slide {
+  50% {
+    box-shadow: 0 20px 10px 50px white inset;
+  }
+}
+.wire-a{
+  box-sising: border-box;
+  content: '';
+  width: 27.188vw;
+  height: 0.313vw;
+}
+.wire-a::before{
+  display: block;
+  content: '';
+  width: 0.313vw;
+  height: 37.813vw;
+  margin-left: 27.2vw;
+}
+.wire-a::after{
+  display: block;
+  content: '';
+  width: 5vw;
+  height: 0.313vw;
+  margin-left: 27.2vw;
+}
+.wa-b{
+  margin-top:1.211vw;
+  margin-left:-1.211vw;
+}
+.wa-c{
+  margin-left:-2.422vw
+}

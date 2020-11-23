@@ -23,9 +23,9 @@ body{
   background-repeat: repeat-y;
 }
 .panel{
+  width: 14.531vw;
+  height: 31.172vw;
   /* margin-left: 6.719vw; */
-  width: 186px;
-  height: 399px;
   background: #484848;
-  border-radius: 12px;
+  border-radius: 0.938vw;
 }
