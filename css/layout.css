@@ -14,14 +14,13 @@ body{
   width: 40.938vw;
 }
 .belt{
-  display: block;
-  position: relative;
+  position: absolute;
   top: 0;
   width: 44.766vw;
   height: 328.516vw;
   margin: 0 auto;
-  background: url('images/c-belt.svg');
-  background-repeat: repeat-y;
+  background-image: url('images/c-belt.svg');
+  background-size: cover;
 }
 .panel{
   width: 14.531vw;
