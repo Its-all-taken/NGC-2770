@@ -1,4 +1,4 @@
-.wire-a,.wire-a::before,.wire-a::after{
+.w1 > *, .w2 > *{
   background-color: white;
     /* animation: gradient-slide 5s ease infinite; */
 }
@@ -14,6 +14,7 @@
   height: 0.313vw;
 }
 .wire-a::before{
+  background-color: inherit;
   display: block;
   content: '';
   width: 0.313vw;
@@ -21,6 +22,7 @@
   margin-left: 27.2vw;
 }
 .wire-a::after{
+  background-color: inherit;
   display: block;
   content: '';
   width: 5vw;
@@ -33,4 +35,10 @@
 }
 .wa-c{
   margin-left:-2.422vw
+}
+.wire2-a{
+  box-sising: border-box;
+  content: '';
+  width: 0.313vw;
+  height: 47.969vw;
 }
