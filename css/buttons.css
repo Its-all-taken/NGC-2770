@@ -136,40 +136,88 @@
   width: 25.391vw;
   height: 26.953vw;
 }
+.panel-lever-b img{
+  margin-left: -2.1vw;
+  width: 25.391vw;
+  height: 26.953vw;
+}
 .graphs{
-  margin: 220px -85px;
-  position: absolute;
+  margin: -1.4vw 0.6vw;
   display: inline-flex;
   flex-direction: row;
 }
 .line{
-  margin-left: 4px;
-  width: 7px;
-  height: 66px;
+  margin-left: 0.313vw;
+  width: 0.547vw;
+  height: 5.156vw;
   background: #7B7B7B;
 }
 .line:first-of-type{
-  margin-left: 10px;
+  margin-left: 0.781vw;
 }
 .buttons-small{
-  position: absolute;
   display: inline-flex;
   flex-direction: row;
-  margin: 200px -69px;
+  margin: 2.5vw 1.8vw;
 }
 .btn-s{
-  width: 6px;
-  height: 6px;
+  width: 0.469vw;
+  height: 0.469vw;
   background: #7B7B7B;
-  border-radius: 100px;
+  border-radius: 7.813vw;
 }
 .btn-s:nth-child(2){
-  margin: 0 5px;
+  margin: 0 0.391vw;
 }
 .lever2-buttons{
-  margin: -270px 187px;
+  margin: -22vw 14vw;
+  width: 5vw;
+  height: 8.047vw;
+}
+.btns1-2{
   display: flex;
   flex-direction: row;
-  width: 64px;
-  height: 103px;
+  width: 5vw;
+  height: 8.047vw;
+}
+.nav-btns{
+  justify-content: space-evenly;
+  width: 212px;
+  display: inline-flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.btn1-nav{
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  background: #83653A;
+}
+.nav-screen{
+  width: 212px;
+  height: 434px;
+  background: #484848;
+  border-radius: 10px;
+}
+.mirror{
+  position: absolute;
+  margin: 15px;
+  height: 354px;
+  width: 173px;
+  border-radius: 10px;
+  background: #1F1B1B;
+}
+.nav-circle{
+  height: 41px;
+  width: 41px;
+  border-radius: 100px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+.nav{
+  display:block;
+  position: relative;
+  height: 434px;
+  width: 212px;
+  overflow: hidden;
 }
