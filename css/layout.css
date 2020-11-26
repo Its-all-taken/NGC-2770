@@ -18,32 +18,48 @@ body{
   position: absolute;
   top: 0;
   width: 44.766vw;
-  height: 328.516vw;
+  height: 457.813vw;
   transform: translate(-50%, -50%);
   left: 50%;
   margin: auto;
   background-image: url('../images/c-belt.svg');
-  background-size: cover;
-  z-index: 0;
+  background-size: contain;
+  z-index: 2;
 }
 .panel{
   width: 14.531vw;
   height: 31.172vw;
-  /* margin-left: 6.719vw; */
+  margin-left: 6.719vw;
   background: #484848;
   border-radius: 0.938vw;
 }
-.panel-turns{
-  margin-left: 4.609vw;
-  margin-top: 7.031vw;
-  width: 8.672vw;
-  height: 11.016vw;
-  column-count: 4;
+.plates{
+  margin-left: 88.281vw;
+}
+.electropanel{
+  margin-top: 7.813vw;
+  margin-left: 6.719vw;
+}
+.panel-lever{
+  width: 15.703vw;
+  height: 12.969vw;
+  background: #484848;
+  border-radius: 1.172vw;
+}
+.work-pls{
+  margin-left: 88.281vw;
+}
+.panel-lever-b{
+  width: 25.391vw;
+  height: 26.953vw;
 }
 .text{
   color: white;
-  width: 16.484vw;
-  height: 18.047vw;
+  width: 5vw;
+  margin: 10.156vw 6.719vw;
+}
+.navigation{
+  margin-left: 88.281vw
 }
 h1{
   font-size: 7.813vw;

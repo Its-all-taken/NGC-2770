@@ -1,4 +1,4 @@
-.w1 > *, .w2 > *{
+.w1 > *, .wire2-a, .wire2-b,.wire2-c,.wire2-d, .wire3-a {
   background-color: white;
     /* animation: gradient-slide 5s ease infinite; */
 }
@@ -8,7 +8,6 @@
   }
 }
 .wire-a{
-  box-sising: border-box;
   content: '';
   width: 27.188vw;
   height: 0.313vw;
@@ -37,8 +36,60 @@
   margin-left:-2.422vw
 }
 .wire2-a{
-  box-sising: border-box;
+  content: '';
+  margin-left: 22vw;
+  width: 0.313vw;
+  height: 47.969vw;
+}
+.wire2-b{
+  height: 0.313vw;
+  width: 171px;
+  margin-left: 6.377vw;
+  margin-top: -0.313vw;
+}
+.wire2-c{
   content: '';
   width: 0.313vw;
   height: 47.969vw;
+  margin-left: 6.377vw;
+}
+.wire2-d{
+  height: 0.313vw;
+  width: 12.828vw;
+  margin-left: -6.302vw;
+  margin-top: -0.313vw;
+}
+.w2{
+  width: 100px;
+  position: relative;
+  top: -40vw;
+  left: 73vw;
+}
+.w2-b{
+  position: absolute;
+  margin-top: -94.524vw;
+  margin-left: 1.125vw;
+}
+.w2-c{
+  position: absolute;
+  margin-top: -97.149vw;
+  margin-left: -1.125vw;
+}
+.w3{
+  margin: 0px 10.156vw;
+}
+.wire3-a{
+  content: '';
+  width: 0.313vw;
+  height: 7.813vw;
+}
+.wire3-a::after{
+  background-color: inherit;
+  display: block;
+  content: '';
+  width: 37.813vw;
+  height: 0.313vw;
+}
+.wa3-b{
+  margin: -5.859vw 1.563vw;
 }

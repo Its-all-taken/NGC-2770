@@ -14,6 +14,13 @@
   width: 2.109vw;
   background: #202020;
 }
+.panel-turns{
+  margin-left: 4.609vw;
+  margin-top: 7.031vw;
+  width: 8.672vw;
+  height: 11.016vw;
+  column-count: 4;
+}
 .turns{
   width: 1.467vw;
   height: 1.467vw;
@@ -94,12 +101,6 @@
   height: 6.797vw;
   background: #83653A;
 }
-.panel-lever{
-  width: 15.703vw;
-  height: 12.969vw;
-  background: #484848;
-  border-radius: 1.172vw;
-}
 .lever{
   display: inline-block;
   height: 4.817vw;
@@ -132,14 +133,19 @@
 .lever-s{
   padding: 2.188vw 0.781vw;
 }
-.panel-lever-b{
-  width: 25.391vw;
-  height: 26.953vw;
-}
-.panel-lever-b img{
+.bg{
   margin-left: -2.1vw;
   width: 25.391vw;
   height: 26.953vw;
+}
+.slider{
+  position: absolute;
+  height: 1.563vw;
+  width: 1.563vw;
+  margin: 11.719vw -17.2vw;
+}
+.slider:nth-child(2){
+  margin: 20vw -17.2vw;
 }
 .graphs{
   margin: -1.4vw 0.6vw;
@@ -182,34 +188,35 @@
 }
 .nav-btns{
   justify-content: space-evenly;
-  width: 212px;
+  width: 16.563vw;
   display: inline-flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin-bottom: 1.563vw;
 }
 .btn1-nav{
-  height: 35px;
-  width: 35px;
+  height: 2.734vw;
+  width: 2.734vw;
   border-radius: 100px;
   background: #83653A;
 }
 .nav-screen{
-  width: 212px;
-  height: 434px;
+  width: 16.563vw;
+  height: 33.906vw;
   background: #484848;
   border-radius: 10px;
 }
 .mirror{
   position: absolute;
-  margin: 15px;
-  height: 354px;
-  width: 173px;
+  margin: 3.125vw 1.563vw;
+  height: 27.656vw;
+  width: 13.516vw;
   border-radius: 10px;
   background: #1F1B1B;
 }
 .nav-circle{
-  height: 41px;
-  width: 41px;
+  position: absolute;
+  height: 3.203vw;
+  width: 3.203vw;
   border-radius: 100px;
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
@@ -220,4 +227,27 @@
   height: 434px;
   width: 212px;
   overflow: hidden;
+}
+.mirror img{
+  margin-left: 20px;
+}
+#c1{
+  margin-top: 61px;
+  margin-left: 66px;
+}
+#c2{
+  margin-top: 81px;
+  margin-left: 13px;
+}
+#c3{
+  margin-top: 81px;
+  margin-left: 121px;
+}
+#c4{
+  margin-top: 115px;
+  margin-left: 67px;
+}
+#c5{
+  margin-top: 166px;
+  margin-left: 67px;
 }
