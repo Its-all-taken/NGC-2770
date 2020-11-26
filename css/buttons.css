@@ -167,8 +167,9 @@
   margin: 0 5px;
 }
 .lever2-buttons{
+  margin: -270px 187px;
+  display: flex;
+  flex-direction: row;
   width: 64px;
   height: 103px;
-  flex-wrap:wrap;
-  display: flex;
 }
