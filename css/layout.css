@@ -3,16 +3,15 @@ body{
   font-family: Geometria;
 }
 .ship{
-  margin: 0 29.531vw;
+  margin: 0 34vw;
   position: fixed;
-  top: 0px;
+  top: 5vw;
   z-index: 999;
 }
 .ship img{
-  margin: 0 auto;
   top: 0;
-  height: 57.734vw;
-  width: 40.938vw;
+  height: 45vw;
+  width: auto;
 }
 .belt{
   position: absolute;
@@ -29,16 +28,15 @@ body{
 .panel{
   width: 14.531vw;
   height: 31.172vw;
-  margin-left: 6.719vw;
+  /* margin-left: 6.719vw; */
   background: #484848;
   border-radius: 0.938vw;
 }
 .plates{
-  margin-left: 88.281vw;
+  /* margin-left: 88.281vw; */
 }
 .electropanel{
-  margin-top: 7.813vw;
-  margin-left: 6.719vw;
+  /* margin-left: 88.281vw; */
 }
 .panel-lever{
   width: 15.703vw;
@@ -47,7 +45,7 @@ body{
   border-radius: 1.172vw;
 }
 .work-pls{
-  margin-left: 88.281vw;
+  /* margin-left: 88.281vw; */
 }
 .panel-lever-b{
   width: 25.391vw;
@@ -59,7 +57,7 @@ body{
   margin: 10.156vw 6.719vw;
 }
 .navigation{
-  margin-left: 88.281vw
+  /* margin-left: 88.281vw; */
 }
 h1{
   font-size: 7.813vw;

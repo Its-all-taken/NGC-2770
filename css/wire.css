@@ -37,9 +37,10 @@
 }
 .wire2-a{
   content: '';
-  margin-left: 22vw;
   width: 0.313vw;
   height: 47.969vw;
+  margin-left: 18vw;
+  margin-top: 0;
 }
 .wire2-b{
   height: 0.313vw;

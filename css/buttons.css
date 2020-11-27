@@ -224,30 +224,64 @@
 .nav{
   display:block;
   position: relative;
-  height: 434px;
-  width: 212px;
-  overflow: hidden;
+  height: 33.906vw;
+  width: 16.563vw;
 }
 .mirror img{
-  margin-left: 20px;
+  width: 13.516vw;
+  height: 6vw;
 }
 #c1{
-  margin-top: 61px;
-  margin-left: 66px;
+  margin-top: 4.766vw;
+  margin-left: 5.156vw;
 }
 #c2{
-  margin-top: 81px;
-  margin-left: 13px;
+  margin-top: 6.328vw;
+  margin-left: 1.016vw;
 }
 #c3{
-  margin-top: 81px;
-  margin-left: 121px;
+  margin-top: 6.328vw;
+  margin-left: 9.453vw;
 }
 #c4{
-  margin-top: 115px;
-  margin-left: 67px;
+  margin-top: 8.984vw;
+  margin-left: 5.234vw;
 }
 #c5{
-  margin-top: 166px;
-  margin-left: 67px;
+  margin-top: 12.969vw;
+  margin-left: 5.234vw;
+}
+.bar{
+  width: 100%;
+}
+.b-bottom{
+  height: 421px;
+  background: #FFFFFF;
+  opacity: 0.1;
+}
+.b-middle{
+  height: 242.59px;
+  background: #FFFFFF;
+  opacity: 0.3;
+  margin-top: -320px;
+}
+.b-up{
+  height: 158px;
+  background: #FFFFFF;
+  margin-top: -195px;
+}
+.dots{
+  margin: -100px 150px;
+  position: absolute;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 950px;
+  height: 55px;
+}
+.dot{
+  border-radius: 100px;
+  content: "";
+  background-color: #000;
+  width: 55px;
+  height: 55px;
 }
