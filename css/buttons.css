@@ -101,6 +101,14 @@
   height: 6.797vw;
   background: #83653A;
 }
+.l-c-bg{
+  height: 300.0777282714844px;
+width: 226px;
+left: 408.9189453125px;
+top: 300.078125px;
+border-radius: 15px;
+
+}
 .lever{
   display: inline-block;
   height: 4.817vw;
@@ -280,7 +288,6 @@
 }
 .dot{
   border-radius: 100px;
-  content: "";
   background-color: #000;
   width: 55px;
   height: 55px;

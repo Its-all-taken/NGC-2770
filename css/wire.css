@@ -35,47 +35,7 @@
 .wa-c{
   margin-left:-2.422vw
 }
-.wire2-a{
-  content: '';
-  width: 0.313vw;
-  height: 47.969vw;
-  margin-left: 18vw;
-  margin-top: 0;
-}
-.wire2-b{
-  height: 0.313vw;
-  width: 171px;
-  margin-left: 6.377vw;
-  margin-top: -0.313vw;
-}
-.wire2-c{
-  content: '';
-  width: 0.313vw;
-  height: 47.969vw;
-  margin-left: 6.377vw;
-}
-.wire2-d{
-  height: 0.313vw;
-  width: 12.828vw;
-  margin-left: -6.302vw;
-  margin-top: -0.313vw;
-}
-.w2{
-  width: 100px;
-  position: relative;
-  top: -40vw;
-  left: 73vw;
-}
-.w2-b{
-  position: absolute;
-  margin-top: -94.524vw;
-  margin-left: 1.125vw;
-}
-.w2-c{
-  position: absolute;
-  margin-top: -97.149vw;
-  margin-left: -1.125vw;
-}
+
 .w3{
   margin: 0px 10.156vw;
 }
