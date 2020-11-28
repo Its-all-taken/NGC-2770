@@ -3,14 +3,26 @@ body{
   font-family: Geometria;
   position: relative;
 }
+.columns{
+  width: 100%;
+  display: grid;
+  grid-template-columns: .62fr 1fr .62fr;
+}
+.left{
+  display: grid;
+}
+.center{
+  display: grid;
+}
+.right{
+  display: grid;
+}
 .ship{
-  margin: 0 34vw;
   position: fixed;
   top: 5vw;
   z-index: 999;
 }
 .ship img{
-  top: 0;
   height: 45vw;
   width: auto;
 }

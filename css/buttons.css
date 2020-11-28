@@ -101,22 +101,44 @@
   height: 6.797vw;
   background: #83653A;
 }
-.l-c-bg{
-  height: 300.0777282714844px;
-width: 226px;
-left: 408.9189453125px;
-top: 300.078125px;
-border-radius: 15px;
-
+.panel-lever-c{
+  height: 23.438vw;
+  width: 17.656vw;
+  background: #484848;
+  border-radius: 1.172vw;
+}
+.leverc{
+  padding: 2.188vw 0.781vw;
+}
+.l-c-black{
+  margin-left: 5.469vw;
+  position: absolute;
+  height: 1.875vw;
+  width: 7.813vw;
+  background: #000000;
+}
+.l-c-hand{
+  margin-top: 0.391vw;
+  margin-left: 5.859vw;
+  position: absolute;
+  height: 0.938vw;
+  width: 4.688vw;
+  background: #C4C4C4;
+}
+.l-c-white{
+  margin-left: 0;
+  position: absolute;
+  height: 2.031vw;
+  width: 8.594vw;
+  border-radius: 0.781vw;
+  background: #FFFFFF;
 }
 .lever{
-  display: inline-block;
   height: 4.817vw;
   width: 5.902vw;
   margin: 0.7vw 0.5vw;
 }
 .black{
-  display: block;
   width: 5.902vw;
   height: 1.084vw;
   background: #000000;
@@ -124,7 +146,6 @@ border-radius: 15px;
 .hand{
   margin-top: -0.859vw;
   margin-left: 1.172vw;
-  display: block;
   width: 2.497vw;
   height: 0.605vw;
   background: #C4C4C4;
@@ -132,13 +153,14 @@ border-radius: 15px;
 .white{
   margin-left: 1.172vw;
   margin-top: -2.734vw;
-  display: block;
   width: 0.908vw;
   height: 4.817vw;
   background: #FFFFFF;
   border-radius: 0.781vw;
 }
 .lever-s{
+  width: 2.497vw;
+  height: 0.605vw;
   padding: 2.188vw 0.781vw;
 }
 .bg{
