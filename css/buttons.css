@@ -260,35 +260,37 @@ border-radius: 15px;
   margin-left: 5.234vw;
 }
 .bar{
+  position: relative;
+  z-index: 1000;
   width: 100%;
 }
 .b-bottom{
-  height: 421px;
+  height: 32.891vw;
   background: #FFFFFF;
   opacity: 0.1;
 }
 .b-middle{
-  height: 242.59px;
+  height: 18.952vw;
   background: #FFFFFF;
   opacity: 0.3;
-  margin-top: -320px;
+  margin-top: -25vw;
 }
 .b-up{
-  height: 158px;
+  height: 12.344vw;
   background: #FFFFFF;
-  margin-top: -195px;
+  margin-top: -15.234vw;
 }
 .dots{
-  margin: -100px 150px;
+  margin: -7.813vw 11.719vw;
   position: absolute;
   display: inline-flex;
   justify-content: space-between;
-  width: 950px;
-  height: 55px;
+  width: 74.219vw;
+  height: 4.297vw;
 }
 .dot{
   border-radius: 100px;
   background-color: #000;
-  width: 55px;
-  height: 55px;
+  width: 4.297vw;
+  height: 4.297vw;
 }
