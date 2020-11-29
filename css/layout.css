@@ -7,6 +7,13 @@ body{
   width: 100%;
   display: grid;
   grid-template-columns: .62fr 1fr .62fr;
+  grid-template-rows: .74fr .26fr;
+}
+.bottom {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  /* grid-row-end: 3; */
 }
 .left{
   display: grid;
@@ -18,6 +25,7 @@ body{
   display: grid;
 }
 .ship{
+  left: 33%;
   position: fixed;
   top: 5vw;
   z-index: 999;
@@ -30,7 +38,7 @@ body{
   position: absolute;
   top: 0;
   width: 44.766vw;
-  height: 457.813vw;
+  height: 610vw;
   transform: translate(-50%, -50%);
   left: 50%;
   margin: auto;
@@ -67,7 +75,7 @@ body{
 .text{
   color: white;
   width: 5vw;
-  margin: 10.156vw 6.719vw;
+  /* margin: 10.156vw 6.719vw; */
 }
 .navigation{
   /* margin-left: 88.281vw; */

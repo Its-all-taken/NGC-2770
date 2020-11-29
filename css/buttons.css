@@ -316,3 +316,12 @@
   width: 4.297vw;
   height: 4.297vw;
 }
+.exit{
+  position: relative;
+  width: auto;
+  height: 140.156vw;
+  z-index: 1000;
+}
+.stars{
+  height: 62.5vw;
+}
