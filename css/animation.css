@@ -1,0 +1,30 @@
+@keyframes gradient-slide {
+  50% {
+    box-shadow: 10px 10px 10px 10px white inset;
+  }
+}
+@keyframes button-blink {
+  50%{background: #fff;}
+}
+@keyframes turning {
+  100%{transform: rotate(360deg);}
+}
+@keyframes slid {
+  50%{transform: translateY(2vw);}
+}
+@keyframes graph-line {
+  50%{height: 1vw; background-color: #303030;}
+}
+@keyframes small-blink {
+  10%{transform: translateY(-.2vw);}
+  50%{transform: translateY(.2vw);}
+  90%{transform: translateY(0);}
+}
+@keyframes nav-blink {
+  50%{background: #5C4728;}
+  80%{background: #C89854;}
+}
+@keyframes navigat {
+  30%{transform: scaleY(.6);}
+  50%{transform: translateY(3vw);}
+}
