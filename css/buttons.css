@@ -134,6 +134,7 @@
   width: 8.594vw;
   border-radius: 0.781vw;
   background: #FFFFFF;
+  animation: lever-b 6s infinite;
 }
 .lever{
   height: 4.817vw;
@@ -151,6 +152,7 @@
   width: 2.497vw;
   height: 0.605vw;
   background: #C4C4C4;
+  animation: lever-a-g 3s infinite;
 }
 .white{
   margin-left: 1.172vw;
@@ -159,6 +161,7 @@
   height: 4.817vw;
   background: #FFFFFF;
   border-radius: 0.781vw;
+  animation: lever-a-w 3s infinite;
 }
 .lever-s{
   width: 2.497vw;

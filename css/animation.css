@@ -28,3 +28,14 @@
   30%{transform: scaleY(.6);}
   50%{transform: translateY(3vw);}
 }
+@keyframes lever-a-w {
+  50%{transform: translateX(3vw);}
+}
+@keyframes lever-a-g {
+  50%{transform: translateX(1vw) scaleX(.7);}
+  100%{transform: scaleX(1);}
+}
+@keyframes lever-b {
+  10%{transform: translateX(5vw) scaleX(.4);}
+  50%{transform: translateX(10vw) scaleX(1);}
+}
