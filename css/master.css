@@ -6,6 +6,5 @@
 @import "responcive.css";
 @font-face {
  font-family: "Geometria";
- src: url("../fonts/Geometria-Bold.woff2") format("woff2"),
-      url("../fonts/Geometria-Medium.woff2") format("woff2");
+ src: url("../fonts/Geometria-Medium.woff2") format("woff2");
 };
