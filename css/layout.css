@@ -2,8 +2,6 @@ body{
   background-color: #000;
   font-family: Geometria;
   position: relative;
-}
-.columns{
   width: 100%;
   display: grid;
   grid-template-columns: .62fr 1fr .62fr;
