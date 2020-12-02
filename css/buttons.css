@@ -58,6 +58,9 @@
   border-top: dashed 1.172vw;
   border-bottom: dashed 1.172vw;
 }
+.micro-p:nth-child(2){
+  margin-top: 3vw;
+}
 .micro-p p{
   margin: 1.328vw 0.313vw;
   font-size: 0.5vw;
@@ -125,6 +128,7 @@
   height: 0.938vw;
   width: 4.688vw;
   background: #C4C4C4;
+  animation: lever-b-g 10s infinite;
 }
 .l-c-white{
   margin-left: 0;
@@ -133,7 +137,7 @@
   width: 8.594vw;
   border-radius: 0.781vw;
   background: #FFFFFF;
-  animation: lever-b 6s infinite;
+  animation: lever-b 10s infinite;
 }
 .lever-s{
   width: 15.703vw;

@@ -1,7 +1,8 @@
 body{
   background-color: #000;
   font-family: Geometria;
-  position: relative;
+}
+.wrap{
   width: 100%;
   display: grid;
   grid-template-columns: .62fr 1fr .62fr;
@@ -11,7 +12,7 @@ body{
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
-  /* grid-row-end: 3; */
+  margin-top: 50vw;
 }
 .left{
   display: grid;
@@ -23,7 +24,8 @@ body{
   display: grid;
 }
 .ship{
-  left: 33%;
+  transform: translate(-50%, 0);
+  left: 50%;
   position: fixed;
   top: 3vw;
   z-index: 999;
@@ -37,7 +39,7 @@ body{
   position: absolute;
   top: 0;
   width: 44.766vw;
-  height: 610vw;
+  height: 1060vw;
   transform: translate(-50%, -50%);
   left: 50%;
   margin: auto;
@@ -48,15 +50,21 @@ body{
 .panel{
   width: 14.531vw;
   height: 31.172vw;
-  /* margin-left: 6.719vw; */
+  margin-top: 3vw;
+  margin-left: 6.719vw;
+  margin-bottom: 42.969vw;
   background: #484848;
   border-radius: 0.938vw;
 }
 .plates{
-  /* margin-left: 88.281vw; */
+  position: absolute;
+  left: 84vw;
+  top: 58.516vw;
 }
 .electropanel{
-  /* margin-left: 88.281vw; */
+  margin-left: 6.719vw;
+  margin-top: 5vw;
+  margin-bottom: 33.438vw;
 }
 .panel-lever{
   width: 15.703vw;
@@ -65,8 +73,13 @@ body{
   border-radius: 1.172vw;
   overflow: hidden;
 }
-.work-pls{
-  /* margin-left: 88.281vw; */
+.panel-lever{
+  display: block;
+  margin-left: 6.719vw;
+  margin-top: 109.063vw;
+}
+.panel-lever-c{
+  margin-left: 6.719vw;
 }
 .panel-lever-b{
   width: 25.391vw;
@@ -75,10 +88,12 @@ body{
 .text{
   color: white;
   width: 5vw;
-  /* margin: 10.156vw 6.719vw; */
+  margin: 10vw 6.719vw;
+  /* margin-left: 6.719vw; */
 }
 .navigation{
-  /* margin-left: 88.281vw; */
+  margin-top: 97.188vw;
+  margin-left: 6.719vw;
 }
 h1{
   font-size: 7.813vw;
