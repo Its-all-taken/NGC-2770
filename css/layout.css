@@ -62,6 +62,7 @@ body{
   height: 12.969vw;
   background: #484848;
   border-radius: 1.172vw;
+  overflow: hidden;
 }
 .work-pls{
   /* margin-left: 88.281vw; */

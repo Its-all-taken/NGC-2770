@@ -51,7 +51,6 @@
   z-index: 0;
 }
 .micro-p{
-  display: inline-block;
   background: #1E1E1E;
   color: gray;
   width:7.578vw;
@@ -136,10 +135,17 @@
   background: #FFFFFF;
   animation: lever-b 6s infinite;
 }
+.lever-s{
+  width: 15.703vw;
+  height: 12.969vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 .lever{
-  height: 4.817vw;
-  width: 5.902vw;
-  margin: 0.7vw 0.5vw;
+  width: 20%;
+  height: 40%;
+  margin-top: 3vw;
+  margin-left: 1vw;
 }
 .black{
   width: 5.902vw;
@@ -162,11 +168,6 @@
   background: #FFFFFF;
   border-radius: 0.781vw;
   animation: lever-a-w 3s infinite;
-}
-.lever-s{
-  width: 2.497vw;
-  height: 0.605vw;
-  padding: 2.188vw 0.781vw;
 }
 .bg{
   margin-left: -2.1vw;
