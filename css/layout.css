@@ -25,11 +25,12 @@ body{
 .ship{
   left: 33%;
   position: fixed;
-  top: 5vw;
+  top: 3vw;
   z-index: 999;
 }
 .ship img{
   height: 45vw;
+  max-height: 50%;
   width: auto;
 }
 .belt{
