@@ -3,7 +3,10 @@
 		display: none;
 	}
 	.wrap > * > *{
-		margin: 10vw 0;
+		margin: 0;
+	}
+	.left > *,.right > *{
+		zoom: 1.5;
 	}
 	.wrap > *{
 		display: block;
@@ -15,29 +18,33 @@
 	.right{
 		position: absolute;
 		top: 0;
-		z-index: 5;
+		z-index: 4;
 	}
 	.left{
 		position: relative;
-		z-index: 5;
+		z-index: 4;
 	}
 	.text{
-		margin-left: 300px;
+		margin-left: 30vw;
 		display: flex;
 		z-index: 4;
+		zoom: 1;
+	}
+	.text:first-of-type{
+		margin-top: 5vh;
 	}
 	#t-b{
 		margin-top: 70vh;
 	}
 	.belt{
 		width: 60%;
-		height: 810vh;
+		height: 1080vh;
 	}
 	.ship{
-		top: 30vw;
+		top: 40vw;
 	}
 	.ship img{
-		height: 90vw;
+		height: 80vw;
 	}
 	h1{
 		font-size: 140px;
@@ -46,25 +53,33 @@
 		padding: 2vw;
 		font-size: 40px;
 	}
+	.panel{
+		margin-top: 40vw;
+	}
 	.panel-lever-c{
 		margin-top: 0
 	}
 	.electropanel{
-		margin-top: 300px;
+		margin-top: 30vw;
 	}
 	.panel-lever-c{
-		margin-top: 500px;
+		margin-left: -2vw;
+		margin-top: 37vw;
+	}
+	.panel-lever-b{
+		margin-top: 20vw;
+		margin-left: -5vw;
 	}
 	.plates{
-		margin-top: 800px;	}
-}
+		margin-top: 120vw;
+	}
 	.panel-lever{
-		margin-top: 2000px;
+		margin-top: 100vw;
 	}
 	.navigation{
-		margin-top: 2000px;
+		margin-top: 220vw;
 	}
 	.bottom{
-		margin-top: 1000px;
+		margin-top: 200vw;
 	}
 }
