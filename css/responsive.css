@@ -38,10 +38,10 @@
 	}
 	.belt{
 		width: 60%;
-		height: 1080vh;
+		height: 1050%;
 	}
 	.ship{
-		top: 40vw;
+		top: 25%;
 	}
 	.ship img{
 		height: 80vw;
@@ -54,30 +54,27 @@
 		font-size: 40px;
 	}
 	.panel{
-		margin-top: 40vw;
-	}
-	.panel-lever-c{
-		margin-top: 0
+		margin-top: 60%;
 	}
 	.electropanel{
-		margin-top: 30vw;
+		margin-top: 40%;
 	}
 	.panel-lever-c{
 		margin-left: -2vw;
-		margin-top: 37vw;
+		margin-top: 40%;
 	}
 	.panel-lever-b{
-		margin-top: 20vw;
+		margin-top: 30%;
 		margin-left: -5vw;
 	}
 	.plates{
-		margin-top: 120vw;
+		margin-top: 700%;
 	}
 	.panel-lever{
-		margin-top: 100vw;
+		margin-top: 600%;
 	}
 	.navigation{
-		margin-top: 220vw;
+		margin-top: 1200%;
 	}
 	.bottom{
 		margin-top: 200vw;
