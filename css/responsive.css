@@ -38,8 +38,7 @@
 	}
 	.belt{
 		width: 60%;
-		/* height: 1080vh; */
-		height: 930%
+		height: 1080vh;
 	}
 	.ship{
 		top: 40vw;
@@ -82,15 +81,5 @@
 	}
 	.bottom{
 		margin-top: 200vw;
-	}
-}
-@media all and (device-height: 568px) and (device-height: 731px) and (orientation: portrait){
-	.belt{
-		height: 1080vh;
-	}
-}
-@media all and (device-height: 731px) and (orientation: portrait){
-	.belt{
-		height: 1075vh;
 	}
 }
