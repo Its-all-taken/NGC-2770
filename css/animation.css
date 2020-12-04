@@ -49,3 +49,17 @@
   72%{transform: translateX(1vw) scaleX(.3);}
   90%{transform: translateX(0vw);}
 }
+@keyframes starr {
+  0%{opacity: 0}
+  20%{opacity: .2}
+  40%{opacity: .6}
+  60%{opacity: .9}
+  100%{opacity: 0}
+}
+@keyframes starr2 {
+  0%{opacity: .4}
+  20%{opacity: .2}
+  40%{opacity: .2}
+  60%{opacity: .9}
+  100%{opacity: .4}
+}

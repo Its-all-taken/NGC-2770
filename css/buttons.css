@@ -339,6 +339,19 @@
   height: 140.156vw;
   z-index: 1000;
 }
-.stars{
-  height: 62.5vw;
+.stars-bg{
+  width:100%;
+  height:100%;
+  display:block;
+  background:#000 url(../images/stars-bg.svg) repeat top center;
+  animation: starr 3s linear infinite;
+  position: absolute;
+}
+.stars2-bg{
+  width:100%;
+  height:100%;
+  display:block;
+  background:#000 url(../images/stars-bg2.svg) repeat top center;
+  animation: starr2 6s linear infinite;
+  position: absolute;
 }

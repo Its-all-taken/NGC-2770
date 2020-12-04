@@ -101,3 +101,7 @@ h1{
 h2{
   font-size: 1.875vw;
 }
+.stars{
+  position: relative;
+  height: 100vh;
+}
