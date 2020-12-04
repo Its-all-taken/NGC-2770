@@ -1,5 +1,4 @@
 .wire-a, .wire-a::before, .wire-a::after, .w2-v, .w2-h, .w3 > *,.wire3-a::after, .wire4-a {
-  /* background-color: white; */
   animation: gradient-slide 3s ease infinite;
 }
 .wire-a{

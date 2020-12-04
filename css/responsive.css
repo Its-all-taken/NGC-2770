@@ -1,1 +1,49 @@
-/* 7 */
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+	.w1,.w2,.w3{
+		display: none;
+	}
+	.wrap > * > *{
+		margin: 10vw 0;
+	}
+	.wrap > *{
+		display: block;
+	}
+	.wrap{
+		width: 100%;
+		display: block;
+	}
+	.right{
+		position: relative;
+		z-index: 5;
+		left: 0;
+	}
+	.left{
+		position: relative;
+		z-index: 5;
+	}
+	.plates{
+		left: auto;
+		top: auto;
+	}
+	.text{
+		margin-left: 300px;
+		display: flex;
+		z-index: 4;
+		/* min-width: 212px; */
+	}
+	.belt{
+		width: 70%;
+	}
+	.ship{
+		top: 30vw;
+	}
+	.ship img{
+		height: 95vw;
+	}
+	h1{
+		font-size: 140px;
+	}
+	h2{
+		padding: 2vw;
+		font-size: 40px;
+	}
