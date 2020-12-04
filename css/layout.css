@@ -57,9 +57,8 @@ body{
   border-radius: 0.938vw;
 }
 .plates{
-  position: absolute;
-  left: 84vw;
-  top: 58.516vw;
+  margin-left: 12vw;
+  margin-top: -28vw
 }
 .electropanel{
   margin-left: 6.719vw;

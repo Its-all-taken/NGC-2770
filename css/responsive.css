@@ -13,31 +13,31 @@
 		display: block;
 	}
 	.right{
-		position: relative;
+		position: absolute;
+		top: 0;
 		z-index: 5;
-		left: 0;
 	}
 	.left{
 		position: relative;
 		z-index: 5;
-	}
-	.plates{
-		left: auto;
-		top: auto;
 	}
 	.text{
 		margin-left: 300px;
 		display: flex;
 		z-index: 4;
 	}
+	#t-b{
+		margin-top: 70vh;
+	}
 	.belt{
-		width: 70%;
+		width: 60%;
+		height: 810vh;
 	}
 	.ship{
 		top: 30vw;
 	}
 	.ship img{
-		height: 95vw;
+		height: 90vw;
 	}
 	h1{
 		font-size: 140px;
@@ -45,5 +45,26 @@
 	h2{
 		padding: 2vw;
 		font-size: 40px;
+	}
+	.panel-lever-c{
+		margin-top: 0
+	}
+	.electropanel{
+		margin-top: 300px;
+	}
+	.panel-lever-c{
+		margin-top: 500px;
+	}
+	.plates{
+		margin-top: 800px;	}
+}
+	.panel-lever{
+		margin-top: 2000px;
+	}
+	.navigation{
+		margin-top: 2000px;
+	}
+	.bottom{
+		margin-top: 1000px;
 	}
 }
