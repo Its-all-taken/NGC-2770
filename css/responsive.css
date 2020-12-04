@@ -29,7 +29,6 @@
 		margin-left: 300px;
 		display: flex;
 		z-index: 4;
-		/* min-width: 212px; */
 	}
 	.belt{
 		width: 70%;
@@ -47,3 +46,4 @@
 		padding: 2vw;
 		font-size: 40px;
 	}
+}
