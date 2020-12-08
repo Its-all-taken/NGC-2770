@@ -1,6 +1,9 @@
 .wire-a, .wire-a::before, .wire-a::after, .w2-v, .w2-h, .w3 > *,.wire3-a::after, .wire4-a {
   animation: gradient-slide 3s ease infinite;
 }
+.w1{
+  margin-left: -1vw;
+}
 .wire-a{
   width: 27.188vw;
   height: 0.313vw;
@@ -63,7 +66,7 @@
 #w2-2 {
   left: 30%;
   bottom: 0;
-  height: 40%;
+  height: calc(40% - 4px);
 }
 #w2-3 {
   width: 31%;
@@ -73,7 +76,7 @@
 #w2-4 {
   left: 60%;
   top: 0;
-  height: 60%;
+  height: calc(60% - .4px);
 }
 .w3{
   margin: 0px 10.156vw;
