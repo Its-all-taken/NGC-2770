@@ -151,6 +151,14 @@
 			margin-left: 60%;
 			margin-top: 160vh;
 		}
+		.exit{
+			height: 127vw;
+			overflow: hidden;
+		}
+		.exit img{
+			margin-left: 36%;
+			transform: scale(2.5);
+		}
 	}
 @media all and (device-width: 2560px){
 	.ship img{
