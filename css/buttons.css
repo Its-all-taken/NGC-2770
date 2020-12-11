@@ -6,6 +6,13 @@
   display: flex;
   /* column-count: 3; */
 }
+.panel-buttons2{
+  width: 18vw;
+  height: 18vh;
+  margin: 5vw;
+  flex-wrap:wrap;
+  display: flex;
+}
 .button-simple{
   /* display: block; */
   border-radius: 100px;
@@ -350,7 +357,8 @@
   width:100%;
   height:100%;
   display:block;
-  background:#000 url(../images/stars-bg.svg) repeat top center;
+  background:#000 url(../images/stars-bg.svg);
+  background-size: 50% auto;
   animation: starr 3s linear infinite;
   position: absolute;
 }
@@ -358,7 +366,8 @@
   width:100%;
   height:100%;
   display:block;
-  background:#000 url(../images/stars-bg2.svg) repeat top center;
+  background:#000 url(../images/stars-bg2.svg);
+  background-size: 50% auto;
   animation: starr2 6s linear infinite;
   position: absolute;
 }
