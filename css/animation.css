@@ -33,7 +33,7 @@
 }
 @keyframes lever-a-g {
   30%{transform: translateX(1vw) scaleX(.5);}
-  50%{transform: translateX(1.5vw) scaleX(1);}
+  50%{transform: translateX(1.5vw) scaleX(.8);}
   70%{transform: translateX(1vw) scaleX(.5);}
 }
 @keyframes lever-b {
@@ -63,4 +63,7 @@
   40%{opacity: .2}
   60%{opacity: .9}
   100%{opacity: .4}
+}
+@keyframes p3-bg {
+
 }
