@@ -59,24 +59,27 @@
   margin-left: -3.484vw;
 }
 #w2-1 {
-  width: 30%;
+  /* width: 30%; */
   bottom: 0;
   left: 0;
+  right: 70%;
 }
 #w2-2 {
   left: 30%;
   bottom: 0;
-  height: calc(40% - 3.5px);
+  top: 60.4%;
+  /* height: calc(40% - 3.5px); */
 }
 #w2-3 {
-  width: 31%;
+  right:39%;
   left: 30%;
   top:60%
 }
 #w2-4 {
   left: 60%;
   top: 0;
-  height: calc(60% - .4px);
+  bottom: 40%;
+  /* height: calc(60% - .4px); */
 }
 .w3{
   margin: 0px 10.156vw;

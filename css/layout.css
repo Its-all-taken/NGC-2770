@@ -111,7 +111,7 @@ body{
   margin-top: 5vh;
   height: 80vh;
   z-index: 1;
-  animation: 6s p3-bg infinite;
+  animation: 6s p3-bg infinite linear;
 }
 h1{
   font-size: 7.813vw;
