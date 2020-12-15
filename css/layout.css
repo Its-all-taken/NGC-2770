@@ -40,7 +40,7 @@ body{
   position: absolute;
   top: 0;
   width: 44.766vw;
-  height: 1900vh;
+  height: 2040vh;
   transform: translate(-50%, -50%);
   left: 50%;
   background-image: url('../images/c-belt.svg');
@@ -62,7 +62,7 @@ body{
   width: 100%;
 }
 .panel-b-2-2{
-  margin-top: 80vh;
+  margin-top: 90vh;
   height: fit-content;
   background: #000;
   width: 100%;
@@ -110,6 +110,8 @@ body{
   background:#000;
   margin-top: 5vh;
   height: 80vh;
+  width: 100%;
+  overflow: hidden;
   z-index: 1;
   animation: 6s p3-bg infinite linear;
 }

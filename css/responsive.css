@@ -1,4 +1,4 @@
-@media all and (min-device-width: 320px) and (max-device-width: 480px) {
+@media all and (min-width: 320px) and (max-width: 480px) {
 	.w1,.w2,.w3{
 		display: none;
 	}
@@ -154,7 +154,7 @@
 			transform: scale(2.5);
 		}
 	} */
-@media all and (min-device-width: 2560px){
+@media all and (min-width: 2560px){
 	.ship img{
 		height: 35vw;
 	}
@@ -165,7 +165,7 @@
 		background-size: 200% 200%;
 	} */
 	}
-@media all and (max-device-width: 1024px){
+@media all and (max-width: 1024px){
 	.ship{
 		top: 20vh;
 	}

@@ -209,7 +209,7 @@
   width: 0.547vw;
   height: 5.156vw;
   background: #7B7B7B;
-  animation: graph-line 6s infinite;
+  animation: graph-line 6s infinite ease-in;
 }
 .line:first-of-type{
   margin-left: 0.781vw;
