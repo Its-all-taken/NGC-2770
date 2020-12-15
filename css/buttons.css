@@ -22,6 +22,10 @@
   background: #202020;
   animation: button-blink 3s infinite ease-in-out;
 }
+.button-simple:hover{
+  background: #DC143C;
+  animation-play-state: paused;
+}
 .panel-turns{
   margin-left: 4.609vw;
   margin-top: 7.031vw;
@@ -38,6 +42,9 @@
 .turns:nth-of-type(1){
   margin-top: 0;
 }
+.turns:hover{
+  animation-play-state: paused;
+}
 .rectangle{
   display: block;
   position: absolute;
@@ -45,8 +52,8 @@
   height: 0.901vw;
   background: #929292;
   z-index: 1;
-  margin-left: 0.634vw;
-  margin-top: -0.1vw;
+  left: 0.634vw;
+  top: -0.1vw;
 }
 .circle{
   display: block;
@@ -242,6 +249,12 @@
   width: 5vw;
   height: 8.047vw;
 }
+.nav{
+  width: 16.563vw;
+  height: 33.906vw;
+  background: #484848;
+  border-radius: 10px;
+}
 .nav-btns{
   justify-content: space-evenly;
   width: 16.563vw;
@@ -256,15 +269,13 @@
   background: #83653A;
   animation: nav-blink 3s alternate infinite;
 }
-.nav-screen{
-  width: 16.563vw;
-  height: 33.906vw;
-  background: #484848;
-  border-radius: 10px;
+.btn1-nav:hover{
+  background: #fff;
 }
 .mirror{
   position: absolute;
-  margin: 3.125vw 1.563vw;
+  top: 3.125vw;
+  left: 1.563vw;
   height: 27.656vw;
   width: 13.516vw;
   border-radius: 10px;
@@ -316,7 +327,6 @@
   height: 30px;
 }
 .panel3 .graphs{
-  position: absolute;
   margin: 0;
   z-index: 2;
 }
@@ -355,7 +365,8 @@
   margin-top: -15.234vw;
 }
 .dots{
-  margin: -7.813vw 11.719vw;
+  top: 15vw;
+  left: 11vw;
   position: absolute;
   display: inline-flex;
   justify-content: space-between;

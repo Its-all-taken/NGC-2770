@@ -19,7 +19,7 @@ body{
   display: grid;
 }
 .center{
-  display: grid;
+  /* display: grid; */
 }
 .right{
   display: grid;
@@ -43,7 +43,7 @@ body{
   height: 2040vh;
   transform: translate(-50%, -50%);
   left: 50%;
-  background-image: url('../images/c-belt.svg');
+  background: url('../images/c-belt.svg');
   background-size: contain;
   z-index: 2;
 }
