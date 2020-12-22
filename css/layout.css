@@ -126,12 +126,11 @@ h2{
   height: 200vh;
 }
 .footer{
-  display: contents;
   height: 5vh;
   width: 100%;
 }
 .footer h1{
-  margin: 1vh 2vw;;
+  margin: -5vh 2vw;
   color: #fff;
   font-size: 2vh;
 }

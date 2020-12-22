@@ -2,34 +2,24 @@
 	.w1,.w2,.w3{
 		display: none;
 	}
-	.wrap > * > *{
-		margin: 0;
+	.wrap{
+	  grid-template-columns: .6fr 12fr .6fr;
 	}
 	.left > *,.right > *{
 		transform: scale(1.5);
 		margin: 0;
 	}
-	/* .wrap > *{
-		display: block;
-	} */
-	.right,.left{
-		z-index: 4;
-	}
 	.text{
-		margin-left: 30vw;
+		margin-left: 23vw;
 		display: flex;
 		z-index: 4;
-		transform: scale(1);
+		transform: scale(.5);
 	}
 	.text:first-of-type{
 		margin-top: 5vh;
 	}
 	#t-b{
 		margin-top: 70vh;
-	}
-	.belt{
-		width: 60%;
-		height: 1020vh;
 	}
 	.ship{
 		top: 25%;
@@ -47,35 +37,52 @@
 	.panel{
 		margin-left: 10%;
 		margin-top: 40vh;
+		z-index: 4;
+	}
+	.panel-b-2{
+		margin-top: 50vh;
+	}
+	.panel-b-2-2{
+		margin-top: 39vh;
+	}
+	.panel-buttons2{
+		width: 10vw;
+		padding-left: 2vw;
 	}
 	.electropanel{
+		z-index: 4;
 		margin-left: 25%;
 		margin-top: 80%;
 	}
 	.panel-lever-c{
+		z-index: 4;
 		margin-top: 30vh;
 	}
 	.panel-lever-b{
+		z-index: 4;
 		margin-top: 15vh;
 		margin-left: -6vw;
 	}
 	.plates{
+		z-index: 4;
 		margin-left: 20%;
 		margin-top: 90vh;
 	}
 	.panel-lever{
-		margin-left: 20%;
+		z-index: 4;
+		/* margin-left: 10%; */
 		margin-top: 160vw;
 	}
 	.navigation{
-		margin-left: 20%;
+		z-index: 4;
+		/* margin-left: 20%; */
 		margin-top: 160vh;
 	}
 	.bottom{
 		margin-top: 200vw;
 	}
 }
-	@media all and (min-width: 480px) and (max-width: 1024px){
+@media all and (min-width: 480px) and (max-width: 1024px){
 		.w1,.w2,.w3{
 			display: none;
 		}
@@ -101,7 +108,16 @@
 		.belt{
 			width: 60%;
 			left: 70%;
-			height: 1095vh;
+		}
+		.panel-b-2{
+			margin-top: 60vh;
+		}
+		.panel-buttons2{
+			margin-left: 10vw;
+			padding-top: 5vw;
+		}
+		.panel-b-2-2{
+			display: none;
 		}
 		.ship{
 			top: 25%;
@@ -138,18 +154,24 @@
 		}
 		.panel-lever{
 			margin-left: 50%;
-			margin-top: 140vw;
+			margin-top: 250vw;
 		}
 		.navigation{
 			margin-left: 60%;
 			margin-top: 160vh;
 		}
+		.panel3{
+			height: 65vh;
+		}
+		.l2{
+			height: 90vw;
+		}
 		.exit{
-			height: 156vw;
+			height: 90vw;
 			overflow: hidden;
 		}
 		.exit img{
-			margin-top: 30vh;
+			margin-top: -30vh;
 			margin-left: 42%;
 			transform: scale(2.5);
 		}
@@ -158,21 +180,93 @@
 	.ship img{
 		height: 35vw;
 	}
-	/* .stars-bg{
-		background-size: 200% 200%;
 	}
-	.stars2-bg{
-		background-size: 200% 200%;
-	} */
-	}
-@media all and (max-width: 1024px){
+@media all and (width: 1024px){
 	.ship{
-		top: 20vh;
+		top: 10vh;
 	}
-	/* .stars-bg{
-		background-size: 200% 200%;
+	.right{
+		margin-top: 70vh;
 	}
-	.stars2-bg{
-		background-size: 200% 200%;
-	} */
+	.panel{
+		margin-top: 50vh;
+	}
+	.panel-b-2{
+		margin-top: 100vh;
+	}
+	.panel-lever{
+		margin-top: 260vh;
+	}
+	.electropanel{
+		margin-top: 50vh;
+		margin-bottom: 100vh;
+	}
+	.panel-lever-c{
+		margin-top: 50vh;
+	}
+	.panel-lever-b{
+		margin-top: 30vh;
+	}
+	.panel-buttons2{
+		margin-left: 10vw;
+	}
+	.navigation{
+		margin-top: 250vh;
+	}
+	.bottom{
+		margin-top: 160vh;
+	}
+}
+@media all and (min-height: 768px){
+	.belt{
+		height: 2080vh;
+	}
+	.panel-b-2-2{
+		margin-top: 91vh;
+	}
+}
+@media all and (min-height: 800px){
+	.belt{
+		height: 1890vh;
+	}
+	.panel-b-2-2{
+		margin-top: 83vh;
+	}
+}
+@media all and (min-height: 900px){
+	.belt{
+		height: 1900vh;
+	}
+	.panel-b-2-2{
+		margin-top: 83vh;
+	}
+}
+@media all and (min-height: 1024px){
+	.belt{
+		height: 1300vh;
+	}
+}
+@media all and (min-height: 1050px){
+	.belt{
+		height: 1900vh;
+	}
+	.panel-b-2-2{
+		margin-top: 84vh;
+	}
+}
+@media all and (min-height: 1080px){
+	.belt{
+		height: 1880vh;
+	}
+	.panel-b-2-2{
+		margin-top: 83vh;
+	}
+}
+@media all and (min-height: 2160px){
+	.belt{
+		height: 2200vh;
+	}
+	.panel-b-2-2{
+		margin-top: 97vh;
+	}
 }
