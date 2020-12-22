@@ -30,7 +30,6 @@
   margin-left: 4.609vw;
   margin-top: 7.031vw;
   width: 8.672vw;
-  height: 11.016vw;
   column-count: 4;
 }
 .turns{
@@ -67,8 +66,7 @@
 .micro-p{
   background: #1E1E1E;
   color: gray;
-  width:7.578vw;
-  height: 3.906vw;
+  width:8vw;
   border-top: dashed 1.172vw;
   border-bottom: dashed 1.172vw;
 }
@@ -82,13 +80,15 @@
   color: #322716;
 }
 .electronics{
-  display: inline-block;
-  width: 8.594vw;
-  height: 8.594vw;
+  position: absolute;
+  top: -.7vw;
+  left: .5vw;
+  width: 8vw;
+  height: 8vw;
   background: #474747;
 }
 .el-in{
-  margin-top: 5.625vw;
+  margin-top: 4vw;
   margin-left: 0.469vw;
   color: #CFCFCF;
   z-index: 1;
@@ -100,27 +100,15 @@
 .el-in p{
   font-size: 0.703vw;
 }
-.electronics::before{
-  display: block;
-  content: "";
-  width: 6.797vw;
-  height: 0.469vw;
-  background: #83653A;
-  margin: -0.391vw 0.8vw;
-}
-.electronics::after{
-  display: block;
-  content: "";
-  width: 6.797vw;
-  height: 0.469vw;
-  background: #83653A;
-  margin: 0.4vw 0.8vw;
-}
 .el-under{
-  margin: -8vw -0.469vw;
-  display: block;
-  width: 9.531vw;
+  width: 9vw;
   height: 6.797vw;
+  background: #83653A;
+}
+.el-under2{
+  margin: -8vw auto;
+  width: 6.797vw;
+  height: 9vw;
   background: #83653A;
 }
 .panel-lever-c{
@@ -253,7 +241,7 @@
   width: 16.563vw;
   height: 33.906vw;
   background: #484848;
-  border-radius: 10px;
+  border-radius: 0.833vw;
 }
 .nav-btns{
   justify-content: space-evenly;
@@ -265,7 +253,7 @@
 .btn1-nav{
   height: 2.734vw;
   width: 2.734vw;
-  border-radius: 100px;
+  border-radius: 8.333vw;
   background: #83653A;
   animation: nav-blink 3s alternate infinite;
 }
@@ -278,7 +266,7 @@
   left: 1.563vw;
   height: 27.656vw;
   width: 13.516vw;
-  border-radius: 10px;
+  border-radius: 0.833vw;
   background: #1F1B1B;
 }
 .nav-circle{
@@ -286,7 +274,7 @@
   height: 3.203vw;
   width: 3.203vw;
   border-radius: 100px;
-  border: 1px solid #FFFFFF;
+  border: 0.083vw solid #FFFFFF;
   box-sizing: border-box;
   animation: navigat 3s infinite;
 }

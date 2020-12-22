@@ -1,0 +1,228 @@
+@media all and (width: 1200px){
+	*{
+	 outline: 1px solid red;
+	}
+}
+@media all and (min-width: 320px) and (max-width: 480px) {
+	.w1,.w2,.w3{
+		display: none;
+	}
+	.left > *,.right > *{
+		transform: scale(1.5);
+		margin: 0;
+	}
+	.text{
+		margin-left: 23vw;
+		display: flex;
+		z-index: 4;
+		transform: scale(.5);
+	}
+	.text:first-of-type{
+		margin-top: 5vh;
+	}
+	#t-b{
+		margin-top: 70vh;
+	}
+	.ship{
+		top: 25%;
+	}
+	.ship img{
+		height: 80vw;
+	}
+	h1{
+		font-size: 140px;
+	}
+	h2{
+		padding: 2vw;
+		font-size: 40px;
+	}
+	.panel{
+		margin-left: 10%;
+		margin-top: 40vh;
+		z-index: 4;
+	}
+	.panel-b-2{
+		margin-top: 50vh;
+	}
+	.panel-b-2-2{
+		margin-top: 39vh;
+	}
+	.panel3{
+		height: 50vh;
+	}
+	.l2{
+		height: 50vh;
+	}
+	.panel-buttons2{
+		margin: 0;
+		width: 20vw;
+	}
+	.electropanel{
+		z-index: 4;
+		margin-left: 25%;
+		margin-top: 80%;
+	}
+	.panel-lever-c{
+		z-index: 4;
+		margin-top: 30vh;
+	}
+	.panel-lever-b{
+		z-index: 4;
+		margin-top: 15vh;
+		margin-left: -6vw;
+	}
+	.plates{
+		z-index: 4;
+		margin-left: 20%;
+		margin-top: 90vh;
+	}
+	.panel-lever{
+		z-index: 4;
+		/* margin-left: 10%; */
+		margin-top: 160vw;
+	}
+	.navigation{
+		z-index: 4;
+		/* margin-left: 20%; */
+		margin-top: 160vh;
+	}
+	.bottom{
+		margin-top: 200vw;
+	}
+}
+
+@media all and (min-width: 480px) and (max-width: 1024px){
+		.w1,.w2,.w3{
+			display: none;
+		}
+		.wrap > * > *{
+			margin: 0;
+		}
+		.left > *,.right > *{
+			transform: scale(1.5);
+		}
+		.wrap > *{
+			display: block;
+		}
+		.wrap{
+			width: 100%;
+		}
+		.right{
+			position: absolute;
+			top: 0;
+		}
+		.bottom{
+			margin-top: 100vh;
+		}
+		.belt{
+			width: 00%;
+			margin-left: 70%;
+		}
+		.panel-b-2{
+			margin-top: 60vh;
+		}
+		.panel-buttons2{
+			margin-left: 10vw;
+			padding-top: 5vw;
+		}
+		.panel-b-2-2{
+			display: none;
+		}
+		.ship{
+			top: 25%;
+			left: 70%;
+		}
+		.ship img{
+			height: 60vw;
+		}
+		.text{
+			margin-left: 10vw;
+			margin-top: 10vh;
+		}
+		#t-b{
+			margin-top: 70vh;
+		}
+		.panel{
+			margin-left: 40%;
+			margin-top: 20vh;
+		}
+		.electropanel{
+			margin-left: 40%;
+			margin-top: 30vh;
+		}
+		.panel-lever-c{
+			margin-top: 20vh;
+		}
+		.panel-lever-b{
+			margin-top: 15vh;
+			margin-left: -6vw;
+		}
+		.plates{
+			margin-left: 60%;
+			margin-top: 80vh;
+		}
+		.panel-lever{
+			margin-left: 50%;
+			margin-top: 250vw;
+		}
+		.navigation{
+			margin-left: 60%;
+			margin-top: 160vh;
+		}
+		.panel3{
+			height: 65vh;
+		}
+		.l2{
+			height: 90vw;
+		}
+		.exit{
+			height: 90vw;
+			overflow: hidden;
+		}
+		.exit img{
+			margin-top: -30vh;
+			margin-left: 42%;
+			transform: scale(2.5);
+		}
+	}
+@media all and (width: 1024px){
+		.ship{
+			top: 10vh;
+		}
+		.right{
+			margin-top: 70vh;
+		}
+		.panel{
+			margin-top: 50vh;
+		}
+		.panel-b-2{
+			margin-top: 100vh;
+		}
+		.panel-lever{
+			margin-top: 260vh;
+		}
+		.electropanel{
+			margin-top: 50vh;
+			margin-bottom: 100vh;
+		}
+		.panel-lever-c{
+			margin-top: 50vh;
+		}
+		.panel-lever-b{
+			margin-top: 30vh;
+		}
+		.panel-buttons2{
+			margin-left: 10vw;
+		}
+		.navigation{
+			margin-top: 250vh;
+		}
+		.bottom{
+			margin-top: 160vh;
+		}
+	}
+@media all and (height: 1024px){
+	.belt{
+		height: 1750vw;
+	}
+}

@@ -33,7 +33,6 @@ body{
 }
 .ship img{
   height: 45vw;
-  max-height: 50%;
   width: auto;
 }
 .belt{
@@ -52,7 +51,8 @@ body{
   position: absolute;
   width: 44%;
   height: 100%;
-  margin-left: 28%;
+  background-size: cover;
+  left: 28%;
 }
 .panel{
   width: 14.531vw;
@@ -69,7 +69,7 @@ body{
   width: 100%;
 }
 .panel-b-2-2{
-  margin-top: 90vh;
+  margin-top: 77.9vh;
   height: fit-content;
   background: #000;
   width: 100%;
@@ -79,7 +79,10 @@ body{
   margin-top: -28vw
 }
 .electropanel{
-  margin-top: -5vh;
+  position: relative;
+  width: 9vw;
+  height: 10vw;
+  margin-top: -20vh;
   margin-left: 6.719vw;
   margin-bottom: 33.438vw;
 }
@@ -104,11 +107,11 @@ body{
 }
 .text{
   color: white;
-  width: 5vw;
   margin: 10vw 6.719vw;
-  /* margin-left: 6.719vw; */
+  height: 20vh;
 }
 .navigation{
+  width: 16.5vw;
   margin-top: 97.188vw;
   margin-left: 6.719vw;
 }
