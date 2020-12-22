@@ -117,8 +117,8 @@
 			margin-top: 100vh;
 		}
 		.belt{
-			width: 60%;
-			left: 70%;
+			width: 150%;
+			margin-left: 20%;
 		}
 		.panel-b-2{
 			margin-top: 60vh;
@@ -187,104 +187,44 @@
 			transform: scale(2.5);
 		}
 	}
-@media all and (min-width: 2560px){
-	.ship img{
-		height: 35vw;
-	}
-	}
 @media all and (width: 1024px){
-	.ship{
-		top: 10vh;
+		.ship{
+			top: 10vh;
+		}
+		.right{
+			margin-top: 70vh;
+		}
+		.panel{
+			margin-top: 50vh;
+		}
+		.panel-b-2{
+			margin-top: 100vh;
+		}
+		.panel-lever{
+			margin-top: 260vh;
+		}
+		.electropanel{
+			margin-top: 50vh;
+			margin-bottom: 100vh;
+		}
+		.panel-lever-c{
+			margin-top: 50vh;
+		}
+		.panel-lever-b{
+			margin-top: 30vh;
+		}
+		.panel-buttons2{
+			margin-left: 10vw;
+		}
+		.navigation{
+			margin-top: 250vh;
+		}
+		.bottom{
+			margin-top: 160vh;
+		}
 	}
-	.right{
-		margin-top: 70vh;
-	}
-	.panel{
-		margin-top: 50vh;
-	}
-	.panel-b-2{
-		margin-top: 100vh;
-	}
-	.panel-lever{
-		margin-top: 260vh;
-	}
-	.electropanel{
-		margin-top: 50vh;
-		margin-bottom: 100vh;
-	}
-	.panel-lever-c{
-		margin-top: 50vh;
-	}
-	.panel-lever-b{
-		margin-top: 30vh;
-	}
-	.panel-buttons2{
-		margin-left: 10vw;
-	}
-	.navigation{
-		margin-top: 250vh;
-	}
-	.bottom{
-		margin-top: 160vh;
+@media all and (height: 1024px){
+	.belt{
+		height: 1750vw;
 	}
 }
-@media all and (height: 1080px; width:2560px)
-/*disable
-/* @media all and (min-height: 568px){
-	.belt{
-		height: 1280vh;
-	}
-}
-@media all and (min-height: 768px){
-	.belt{
-		height: 2080vh;
-	}
-	.panel-b-2-2{
-		margin-top: 91vh;
-	}
-}
-@media all and (min-height: 800px){
-	.belt{
-		height: 1780vh;
-	}
-	.panel-b-2-2{
-		margin-top: 83vh;
-	}
-}
-@media all and (min-height: 900px){
-	.belt{
-		height: 1900vh;
-	}
-	.panel-b-2-2{
-		margin-top: 83vh;
-	}
-}
-@media all and (min-height: 1024px){
-	.belt{
-		height: 1300vh;
-	}
-}
-@media all and (min-height: 1050px){
-	.belt{
-		height: 1900vh;
-	}
-	.panel-b-2-2{
-		margin-top: 84vh;
-	}
-}
-@media all and (min-height: 1080px){
-	.belt{
-		height: 1880vh;
-	}
-	.panel-b-2-2{
-		margin-top: 83vh;
-	}
-}
-@media all and (min-height: 2160px){
-	.belt{
-		height: 2200vh;
-	}
-	.panel-b-2-2{
-		margin-top: 97vh;
-	}
-} */

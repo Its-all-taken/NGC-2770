@@ -13,13 +13,13 @@ body{
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
-  margin-top: 20vw;
+  position: relative;
 }
 .left{
   display: grid;
 }
 .center{
-  /* display: grid; */
+  display: grid;
 }
 .right{
   display: grid;
@@ -37,15 +37,22 @@ body{
   width: auto;
 }
 .belt{
-  position: absolute;
   top: 0;
-  width: 44.766vw;
-  height: 2040vh;
-  transform: translate(-50%, -50%);
-  left: 50%;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
   background: url('../images/c-belt.svg');
   background-size: contain;
   z-index: 2;
+}
+.bottom{
+  position: relative;
+}
+.belt2{
+  position: absolute;
+  width: 44%;
+  height: 100%;
+  margin-left: 28%;
 }
 .panel{
   width: 14.531vw;

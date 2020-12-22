@@ -381,10 +381,15 @@
 }
 .exit{
   position: relative;
+  display: flex;
   width: 100%;
-  height: 140.156vw;
+  /* height: 140.156vw; */
   margin-top: -92vh;
   z-index: 4;
+}
+.exit img{
+  width: 100%;
+  height: 100%;
 }
 .stars-bg{
   width:100%;
