@@ -1,9 +1,14 @@
+@media all and (width: 1200px){
+	*{
+	 outline: 1px solid red;
+	}
+}
 @media all and (min-width: 320px) and (max-width: 480px) {
 	.w1,.w2,.w3{
 		display: none;
 	}
-	.wrap{
-	  grid-template-columns: .6fr 12fr .6fr;
+	*{
+	 outline: 1px solid red;
 	}
 	.left > *,.right > *{
 		transform: scale(1.5);
@@ -45,9 +50,15 @@
 	.panel-b-2-2{
 		margin-top: 39vh;
 	}
+	.panel3{
+		height: 50vh;
+	}
+	.l2{
+		height: 50vh;
+	}
 	.panel-buttons2{
-		width: 10vw;
-		padding-left: 2vw;
+		margin: 0;
+		width: 20vw;
 	}
 	.electropanel{
 		z-index: 4;
@@ -217,6 +228,11 @@
 		margin-top: 160vh;
 	}
 }
+@media all and (min-height: 568px){
+	.belt{
+		height: 1280vh;
+	}
+}
 @media all and (min-height: 768px){
 	.belt{
 		height: 2080vh;
@@ -227,7 +243,7 @@
 }
 @media all and (min-height: 800px){
 	.belt{
-		height: 1890vh;
+		height: 1780vh;
 	}
 	.panel-b-2-2{
 		margin-top: 83vh;
