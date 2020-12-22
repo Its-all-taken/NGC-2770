@@ -87,4 +87,53 @@
 		transform: scale(1.5);
 		margin: 0;
 	}
+	.ship{
+		top: 30vh;
+	}
+	.text{
+		position: absolute;
+		left: 40%;
+		width: 10vw;
+		display: flex;
+		z-index: 4;
+	}
+	.text:first-of-type{
+		top: 10vh;
+	}
+	#t-b{
+		top: 170vh;
+	}
+	#t-c{
+		top: 240vh;
+	}
+	.panel{
+		margin-top: 25vh;
+	}
+	.plates{
+		margin-top:40vh;
+	}
+	.panel-b-2{
+		margin-top:40vh;
+	}
+	.electropanel{
+		margin-top: 90vh;
+	}
+	.panel-lever{
+		margin-top: 30vh;
+	}
+	.panel-lever-c{
+		margin-top: 70vh;
+	}
+	.panel-lever-b{
+		margin-top: 10vh;
+	}
+	.navigation{
+		margin-top: 40vh;
+	}
+	.l2{
+		height: 90vh;
+	}
+	.exit{
+		margin-top: -30vh;
+	}
 }
