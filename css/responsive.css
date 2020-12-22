@@ -92,7 +92,7 @@
 	}
 	.text{
 		position: absolute;
-		left: 40%;
+		left: 38%;
 		width: 10vw;
 		display: flex;
 		z-index: 4;
@@ -106,29 +106,42 @@
 	#t-c{
 		top: 240vh;
 	}
+	h2{
+		margin: 1vh;
+	}
 	.panel{
 		margin-top: 25vh;
+		margin-left: 7vw;
 	}
 	.plates{
 		margin-top:40vh;
+		margin-left: 10vw;
 	}
 	.panel-b-2{
 		margin-top:40vh;
 	}
+	.panel-b-2-2{
+		margin-top:-7.6vh;
+	}
 	.electropanel{
 		margin-top: 90vh;
+		margin-left: 7vw;
 	}
 	.panel-lever{
 		margin-top: 30vh;
+		margin-left: 7vw;
 	}
 	.panel-lever-c{
 		margin-top: 70vh;
 	}
 	.panel-lever-b{
 		margin-top: 10vh;
+		margin-left: -1.5vw;
+		margin-bottom: 20vh;
 	}
 	.navigation{
 		margin-top: 40vh;
+		margin-left: 6vw;
 	}
 	.l2{
 		height: 90vh;
