@@ -228,6 +228,8 @@
 		margin-top: 160vh;
 	}
 }
+@media all and (height: 1080px; width:2560px)
+/*disable
 /* @media all and (min-height: 568px){
 	.belt{
 		height: 1280vh;
