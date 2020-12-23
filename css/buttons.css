@@ -1,24 +1,27 @@
 .panel-buttons{
-  padding: 1.875vw;
   width: 8.891vw;
   height: 11.016vw;
-  flex-wrap:wrap;
   display: flex;
-  /* column-count: 3; */
+  flex-wrap:wrap;
+}
+.panel-buttons .button-simple{
+  margin-left: .5vw;
 }
 .panel-buttons2{
-  width: 18vw;
-  height: 60vh;
-  margin: 10vh auto;
+  width: 80%;
+  height: 30vw;
+  margin: 50% auto;
   flex-wrap:wrap;
   display: flex;
+  overflow: hidden;
+}
+.panel > *{
+  margin: 20% 0 0 20%;
 }
 .button-simple{
-  /* display: block; */
-  border-radius: 8.333vw;
-  margin: 0.4vw;
-  height: 2.109vw;
-  width: 2.109vw;
+  border-radius: 50%;
+  height: 2vw;
+  width: 2vw;
   background: #202020;
   animation: button-blink 3s infinite ease-in-out;
 }
@@ -30,8 +33,7 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 4vw;
-  margin-top: 5vw;
+  margin-top: 3vw;
   width: 11vw;
   height: 5vh;
 }
@@ -194,6 +196,9 @@
 .slider:nth-child(2){
   margin: 19vw -17.2vw;
 }
+.slider:hover{
+  animation-play-state: paused;
+}
 .graphs{
   margin: 0vw 0.6vw;
   display: inline-flex;
@@ -237,6 +242,15 @@
   width: 5vw;
   height: 8.047vw;
 }
+.btns1{
+  margin-left: .5vw;
+}
+.btns2{
+  margin-left: .5vw;
+}
+.btns1-2 .button-simple{
+  margin-top: .8vh;
+}
 .nav{
   width: 16.563vw;
   height: 33.906vw;
@@ -278,11 +292,18 @@
   box-sizing: border-box;
   animation: navigat 3s infinite;
 }
+.nav-circle:hover{
+  border: 0.1vw solid #83653A;
+  animation-play-state: paused;
+}
 .nav{
   display:block;
   position: relative;
   height: 33.906vw;
   width: 16.563vw;
+}
+.mirror:hover{
+  background: #999999;
 }
 .mirror img{
   width: 13.516vw;

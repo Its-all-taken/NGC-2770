@@ -133,6 +133,9 @@
 	.panel{
 		margin-top: 10vh;
 	}
+	.panel-buttons{
+		padding-top: 10%;
+	}
 	.electropanel{
 		margin-top: 20vw;
 		margin-bottom: 80vw;
