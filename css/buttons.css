@@ -29,7 +29,6 @@
 .panel-turns{
   position: relative;
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
   margin-left: 4vw;
   margin-top: 5vw;

@@ -63,9 +63,9 @@ body{
   border-radius: 0.938vw;
 }
 .panel-b-2{
-  height: fit-content;
   background: #000;
   width: 100%;
+  height: 45vh;
   margin-top: 20vh;
 }
 .panel-b-2-2{
@@ -73,6 +73,7 @@ body{
   height: fit-content;
   background: #000;
   width: 100%;
+  height: 45vh;
 }
 .plates{
   margin-left: 12vw;
@@ -82,13 +83,13 @@ body{
   position: relative;
   width: 9vw;
   height: 10vh;
-  margin-top: 0vh;
+  margin-top: -5vh;
   margin-left: 6.719vw;
   margin-bottom: 33.438vh;
 }
 .panel-lever{
   width: 15.703vw;
-  height: 21vh;
+  height: 15vw;
   background: #484848;
   border-radius: 1.172vw;
   overflow: hidden;
