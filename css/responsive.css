@@ -168,8 +168,84 @@
 		margin-top: -30vh;
 	}
 }
-/* @media all and (height:900px) {
-	.panel-b-2-2{
-		margin-top: 71vh;
+@media all and (min-width: 1680px){
+	.wrap{
+		grid-template-rows: 1fr .1fr;
+		grid-template-columns: 1fr .62fr 1fr .62fr 1fr;
+		overflow: hidden;
 	}
-} */
+	.left{
+		grid-column-start: 2;
+		overflow: hidden;
+	}
+	.center{
+		grid-column-start: 3;
+	}
+	.right{
+		grid-column-start: 4;
+		overflow: hidden;
+	}
+	.bottom{
+		grid-column-start: 2;
+		grid-column-end: 5;
+	}
+	.left > *,.right > *{
+		transform: scale(.6);
+		margin: 0;
+	}
+	.ship img{
+		height: 20vw;
+	}
+	.w1{
+		margin-left: -10vw;
+	}
+	.w2{
+		margin-top: -40vh;
+		margin-left: -10vw;
+	}
+	.text{
+		width: 10vw;
+	}
+	.panel{
+		margin-top: -5vh;
+		margin-left: -2vw;
+	}
+	.plates{
+		margin-top: -65vh;
+		margin-left: 2vw;
+	}
+	.panel-b-2{
+		margin-left: -5vw;
+	}
+	.panel-b-2-2{
+		margin-left: -5vw;
+		margin-top: -23vh;
+	}
+	#t-b{
+		margin: 20vh 0;
+	}
+	.panel-lever{
+		margin-top: 50vh;
+	}
+	.electropanel{
+		margin-left: 1vw;
+	}
+	#t-c{
+		margin-top: 30vh;
+	}
+	.panel-lever-b{
+		margin-left: -5vw;
+	}
+	.navigation{
+		margin-top: 50vh;
+	}
+	.panel3{
+		height: 40vh;
+	}
+	.l2{
+		height: 40vh;
+	}
+	.exit{
+		margin-top: -40vh;;
+	}
+}

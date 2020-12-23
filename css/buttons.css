@@ -8,8 +8,8 @@
 }
 .panel-buttons2{
   width: 18vw;
-  height: 30vh;
-  margin: 5vw;
+  height: 60vh;
+  margin: 10vh auto;
   flex-wrap:wrap;
   display: flex;
 }
