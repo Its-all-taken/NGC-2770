@@ -57,9 +57,8 @@ body{
 .panel{
   width: 14.531vw;
   height: 31.172vw;
-  margin-top: 3vw;
+  margin-top: 2vh;
   margin-left: 6.719vw;
-  margin-bottom: 20vw;
   background: #484848;
   border-radius: 0.938vw;
 }
@@ -67,28 +66,29 @@ body{
   height: fit-content;
   background: #000;
   width: 100%;
+  margin-top: 20vh;
 }
 .panel-b-2-2{
-  margin-top: 77.9vh;
+  margin-top: 23vh;
   height: fit-content;
   background: #000;
   width: 100%;
 }
 .plates{
   margin-left: 12vw;
-  margin-top: -28vw
+  margin-top: -35vh;
 }
 .electropanel{
   position: relative;
   width: 9vw;
-  height: 10vw;
-  margin-top: -20vh;
+  height: 10vh;
+  margin-top: 0vh;
   margin-left: 6.719vw;
-  margin-bottom: 33.438vw;
+  margin-bottom: 33.438vh;
 }
 .panel-lever{
   width: 15.703vw;
-  height: 12.969vw;
+  height: 21vh;
   background: #484848;
   border-radius: 1.172vw;
   overflow: hidden;
@@ -96,7 +96,7 @@ body{
 .panel-lever{
   display: block;
   margin-left: 6.719vw;
-  margin-top: 109.063vw;
+  margin-top: 109.063vh;
 }
 .panel-lever-c{
   margin-left: 6.719vw;
@@ -112,7 +112,7 @@ body{
 }
 .navigation{
   width: 16.5vw;
-  margin-top: 97.188vw;
+  margin-top: 97.188vh;
   margin-left: 6.719vw;
 }
 .panel3{

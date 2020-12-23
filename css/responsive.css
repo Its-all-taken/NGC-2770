@@ -1,4 +1,4 @@
-@media all and (min-width: 500px) and (max-width: 1024px){
+@media all and (min-width: 600px) and (max-width: 1024px){
 	.w1,.w2,.w3{
 		display: none;
 	}
@@ -75,15 +75,9 @@
 		margin-top: -34vh;
 	}
 }
-@media all and (min-width: 320px) and (max-width: 500px){
+@media all and (min-width: 320px) and (max-width: 600px){
 	.w1,.w2,.w3{
 		display: none;
-	}
-	.panel-buttons{
-		padding: 1vw;
-	}
-	.turns{
-		margin-top: .9vw;
 	}
 	.left > *,.right > *{
 		transform: scale(1.5);
@@ -157,10 +151,25 @@
 		margin-top: 40vh;
 		margin-left: 6vw;
 	}
+	.btn-s{
+		margin-top: -4vw;
+	}
+	.graphs{
+		margin-top: -10vh;
+	}
+	.line{
+		height: 2vh;
+	}
 	.l2{
 		height: 90vh;
+		margin-left: 1vw;
 	}
 	.exit{
 		margin-top: -30vh;
 	}
 }
+/* @media all and (height:900px) {
+	.panel-b-2-2{
+		margin-top: 71vh;
+	}
+} */

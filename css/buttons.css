@@ -27,19 +27,20 @@
   animation-play-state: paused;
 }
 .panel-turns{
-  margin-left: 4.609vw;
-  margin-top: 7.031vw;
-  width: 8.672vw;
-  column-count: 4;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 4vw;
+  margin-top: 5vw;
+  width: 11vw;
+  height: 5vh;
 }
 .turns{
   width: 1.467vw;
   height: 1.467vw;
-  margin-top: 0.634vw;
+  margin:.4vw;
   animation: turning 3s infinite;
-}
-.turns:nth-of-type(1){
-  margin-top: 0;
 }
 .turns:hover{
   animation-play-state: paused;
