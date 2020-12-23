@@ -1,8 +1,4 @@
-/* @media all{
-	*{
-	 outline: 1px solid red;
-	} */
-@media all and (min-width: 480px) and (max-width: 1024px){
+@media all and (min-width: 500px) and (max-width: 1024px){
 	.w1,.w2,.w3{
 		display: none;
 	}
@@ -79,16 +75,34 @@
 		margin-top: -34vh;
 	}
 }
-@media all and (min-width: 320px) and (max-width: 480px){
+@media all and (min-width: 320px) and (max-width: 500px){
 	.w1,.w2,.w3{
 		display: none;
+	}
+	.panel-buttons{
+		padding: 1vw;
+	}
+	.turns{
+		margin-top: .9vw;
 	}
 	.left > *,.right > *{
 		transform: scale(1.5);
 		margin: 0;
 	}
+	.right{
+		overflow: hidden;
+	}
 	.ship{
 		top: 30vh;
+	}
+	.ship img{
+		height: 60vw;
+	}
+	.el-in{
+		margin: 1vh 1vw;
+	}
+	.belt2{
+		background-size: auto;
 	}
 	.text{
 		position: absolute;
