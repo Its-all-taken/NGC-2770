@@ -174,6 +174,11 @@
 		margin-top: -34vh;
 	}
 }
+@media all and (min-width: 1024px) and (max-width: 1360px) {
+	.plates{
+		margin-top: -50vh;
+	}
+}
 @media all and (min-width: 1680px){
 	.wrap{
 		grid-template-rows: 1fr .1fr;
